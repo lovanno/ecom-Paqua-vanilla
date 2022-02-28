@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paqua</title>
+</head>
+
+
+
+<link rel="stylesheet" type="text/css" href="PA Style.css">
+ 
+<body>
+    <img src ="Ideas/test3.jpg">
+
+    <script type="text/javascript" src="fruit JS.js"></script> 
+
+    <header>
+        <nav class = "headBar">
+
+            <ul class="eleFruit">
+                <a class="logo" href="/"><img src="Img/logo3.png" alt="logo"></a>
+
+
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Shop All</a></li>
+
+            <li style = "float:right"><a href="#">About</a></li>
+            <li style = "float:right"><a href="#">Contact</a></li>
+
+            </ul>
+
+
+        </nav>
+    </header>
+    <h1>Refreshing All Natural <Br> Fruit Smoothies </h1>
+
+    <button class="action">See Flavors</button>
+    
+ 
+</form>
+ 
+    
+    
+</body>
+</html>

@@ -1,0 +1,207 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.eleFruit{
+    z-index: 500;
+
+    margin: 0;
+
+
+    padding: 20px 16px;
+    overflow: hidden;
+    position: fixed;
+
+
+    top: -2%;
+    background-color: transparent;
+
+    list-style-type: none;
+
+    width: 100%;
+    transition: 400ms;
+}
+
+
+
+li{
+    float: left;
+}
+
+
+
+li a{
+    display: block;
+    font-weight: 600;
+
+    color: #a14f4f;
+    font-size: 22px;
+    padding: 24px 20px;
+
+    text-decoration: none;
+    text-align: center;
+    transition: 400ms;
+
+}
+
+li a:hover:not(.active){
+    color: #ee6261;
+    transition: 700ms;
+}
+
+
+
+li a:after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    display: block;
+    background: white;
+    transition: 400ms;
+
+}
+
+
+
+
+
+li a:hover:after{
+    width: 100%;
+}
+
+.scrolling-active li a:hover{
+    color: #959088;
+    transition: 300ms;
+}
+
+.scrolling-active .logo img {
+
+    content: url("Img/PA Text Logo.png");
+
+    display: inline-block; 
+    float: none !important;
+
+    top: -9%;
+  
+
+    padding-left: 24%;
+    height: 24%;
+    width: auto;
+  
+  }
+
+  
+  
+  
+
+
+.logo{
+    cursor: pointer;
+  }
+  
+  
+  .logo img {
+    position: fixed;
+    top: 0;
+    padding: 20px 16px;
+  
+
+    display: inline-block;
+    float: none !important;
+
+    padding-top: 5%;
+    padding-left: 22%;
+    height: 27%;
+    width: auto;
+  
+    transition: 400ms;
+  
+  }
+  
+
+/* Scroll Effects */
+
+.scrolling-active{ 
+    background-color: #f8e5c7;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    transition: 400ms;
+    
+
+}
+
+.scrolling-active .eleFruit{
+    height: 4.5rem;
+    transition: 400ms;
+
+}
+
+.scrolling-active li a{
+    color: #242424;
+    transition: 400ms;
+}
+
+
+
+
+h1{
+    font-family: garamond, bodoni MT;
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    color: #ff172b;
+    font-size: 90px;
+
+    word-spacing: 10px;
+    text-align: center;
+}
+
+button{
+    font-family: garamond, bodoni MT;
+
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    color: white;
+    font-weight: thin;
+    font-size: 30px;
+
+    padding: 0;
+    border: none;
+    background: none;
+
+}
+
+
+button:hover:not(.active){
+    color: #F8F0E3;
+}
+
+
+
+button:after{
+    content: '';
+    height: 4px;
+    width: 32%;
+    display: block;
+    background: white;
+    transition: 400ms;
+
+}
+
+
+
+
+
+button:hover:after{
+    width: 100%;
+}
