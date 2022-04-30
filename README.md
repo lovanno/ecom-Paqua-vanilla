@@ -9,9 +9,9 @@
 
 **Purpose:** Learn the process of completing an entire website section by section with the emphasis of weaving together a full story.
 
-**Requirements** 🚦
-*•Must be a complete website with: a navbar, a home page, 3 content sections, founder's page and a footer 
-•Must be responsive
+**Requirements** 🚦 &nbsp;
+*• Must be a complete website with: a navbar, a home page, 3 content sections, founder's page and a footer 
+• Must be responsive
 *
 
 **What's the most technically challenging part of this project and why?**
