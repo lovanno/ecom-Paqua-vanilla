@@ -23,7 +23,7 @@
 
       height: 5%;
       width: auto;
-      transition: 500ms;
+      transition: 200000ms;
     }
 
 
@@ -63,7 +63,6 @@
 
 
     /***                      home section_1                              ***/
-
     #fruitLanding-Image {
       background: url("Material/\(1\)\ landingDrink.png");
       background-size: cover;
@@ -99,6 +98,9 @@
       font-family: garamond, bodoni MT;
     }
 
+    a.home-btn-link:hover {
+      text-decoration: none;
+    }
 
     .home-btn-link:after {
       content: '';
@@ -107,7 +109,7 @@
       text-decoration: none;
 
       display: block;
-      background: white;
+      background: #9d3735;
 
       z-index: 1000;
       transition: 700ms;
@@ -126,10 +128,9 @@
 
     /*      Nav Bar - Homescreen   */
     .nav-link:hover:not(.active) {
-      /* Hover of Li Nav Bar*/
-      color: white;
+      color: black;
       transition: 700ms;
-
+      text-decoration: none;
     }
 
 
@@ -139,12 +140,11 @@
       height: 3px;
       width: 0px;
       display: block;
-      background: #e9e9e9;
+      background: black;
 
       z-index: 1000;
       transition: 700ms;
     }
-
 
     .nav-link:hover:after {
       width: 100%;
@@ -152,29 +152,26 @@
 
 
     /*      Nav Bar - Moved   */
-
     .scrolling-active a.logo {
       content: url("Material/blkLogo.png");
       cursor: pointer;
       position: fixed;
-      top: 3%;
+      top: 2%;
       left: 4%;
-
 
       display: inline-block;
 
-      height: 6%;
+      height: 5%;
       width: auto;
-      transition: 400ms;
+      transition: 7000ms;
     }
 
 
     .scrolling-active {
+      /*background: #f4cc4f;*/
       background: #e9e9e9;
       box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
       transition: 800ms;
-
-      /*background: #f4cc4f;*/
     }
 
 
@@ -186,9 +183,6 @@
       color: white;
       transition: 600ms;
     }
-
-
-
 
 
 
